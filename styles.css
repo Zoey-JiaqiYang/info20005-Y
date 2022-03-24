@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&family=Lora&display=swap');
+
+:root{
+    /* colours */
+    --colour-bg:  rgb(244,243,249);
+    --color-text: rgb(32,32,32);
+
+    /* font Typography */
+    --font-display: 'Loral', serif;
+    --font-body: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 5em;
+    margin : 0.4em;
+}
+h2{
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin : 0.3em;
+}
+
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-menu{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.navbar-menu> li > a{
+    text-decoration: -line :none;
+}
+.navbar-menu > li > a:visited{
+    color: var(--color-text)
+
+}
+
+.navbar-menu > li{
+    margin: 0.5em
+}
+
+
+.menu-list > dt{
+    font-size: 1.6em;   
+}
+
+.cafe-photo{
+    width: 960px;
+}
+
+.menu-list > dd{
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+
+.menu-list > dd + dt{
+    margin-top: 1em;
+}
